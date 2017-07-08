@@ -1,0 +1,17 @@
+FROM ubuntu:latest
+MAINTAINER heimedv
+
+
+#Package install 
+RUN apt update 
+RUN apt install -y ruby
+
+#Expose port
+#EXPOSE 23
+
+# add telnet simulator
+ADD . /code
+WORKDIR /code
+
+# run telnet simulator
+CMD ruby telnet.rb
