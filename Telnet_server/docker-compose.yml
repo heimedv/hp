@@ -1,8 +1,8 @@
 version: '2'
 services:
   telnet:
-		build: .
+    build: .
     ports:
       - 23
-		volumes:
-		- .:/code
+    volumes:
+    - .:/code
