@@ -5,4 +5,4 @@ services:
     ports:
       - 23
     volumes:
-    - .:/code
+    - ./code:/code

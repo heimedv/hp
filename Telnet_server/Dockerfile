@@ -10,7 +10,7 @@ RUN apt install -y ruby
 #EXPOSE 23
 
 # add telnet simulator
-ADD . /code
+ADD ./code /code
 WORKDIR /code
 
 # run telnet simulator
