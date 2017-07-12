@@ -14,5 +14,5 @@ ADD ./code /code
 WORKDIR /code
 
 # run telnet simulator
-RUN chmod +x telnet.rb
-CMD ruby telnet.rb
+RUN chmod +x server.rb
+CMD ruby server.rb
